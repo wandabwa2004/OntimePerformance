@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon 11th Jan 2021
-@author: Herman Wandabwa - herman.wandabwa@kiwirail.co.nz
+
 """
 
 from pycaret.classification import load_model, predict_model
@@ -40,7 +40,7 @@ def predict_quality(model, df):
     
     return predictions_data['Label'][0]
     
-model = load_model('Randomforestmodel')
+model = load_model('KNN_Model')
 
 
 st.title('Kiwirail Trains OnTime  Predictions')
