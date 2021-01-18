@@ -40,7 +40,7 @@ def predict_quality(model, df):
     
     return predictions_data['Label'][0]
     
-model = load_model('KNN_Mode1')
+model = load_model('https://drive.google.com/file/d/194kupJNCjDJJyusbA2MH9JFsQYJE8o5s/view?usp=sharing')
 
 
 st.title('Kiwirail Trains OnTime  Predictions')
