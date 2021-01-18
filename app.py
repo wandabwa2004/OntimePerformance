@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon 11th Jan 2021
-
-"""
-
 from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
